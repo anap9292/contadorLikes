@@ -33,7 +33,7 @@ body{
 #contador{
     
     font-size: 3em;
-    padding-right: 15px;
+    padding-right: 1em;
 }
 
 #third {
@@ -73,5 +73,9 @@ body{
 #btn-reset:hover {
     box-shadow: 0 0 40px 40px #ee6555 inset;
   }
+@media (max-width: 400px){
+    #third{
+        font-size: 0.8em;
+    }
 
-
+}
